@@ -12,32 +12,36 @@
     <meta property="og:image" content="https://i.ibb.co/QC08Qsc/preview.jpg" />
 
     <title>BD Blockade Info</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulmaswatch/lux/bulmaswatch.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="head">
-        <div class="logo">🚧</div>
-        <h1>Is Blockade around?</h1>
+    <div class="container">
+        <div class="head has-text-centered">
+            <h1 class="is-size-1 is-size-3-mobile">🚧 Is Blockade around?</h1>
+        </div>
+        <div class="box main">
+            <h2 class="vredict is-size-2 has-text-centered has-text-weight-bold">[Not Sure]</h2>
+            <h3 id="subtitle" class="is-size-4">🗓️ Fetching Data Wait a sec</h3>
+            <h3 id="caller" class="is-size-4">📢 Called By: Checking</h3>
+            <h3 class="is-size-4">📎 Source: <a href="#" id="sourceLink">Here</a></h3>
+            <h4 id="reporter" class="is-size-5">Reported By: username</h4>
+        </div>
+        <div class="box footer">
+            <p>
+                To report any blockade
+                <a href="https://github.com/The-Penguins-Club/bd-blockade/issues/2">Click here</a>
+            </p>
+            <br>
+            <p>
+                This is developed and maintained by
+                <a href="https://github.com/The-Penguins-Club/bd-blockade/">The Penguins Club</a>
+                and Reported by cool people from Bangladesh🇧🇩
+            </p>
+        </div>
     </div>
-    <div class="main">
-        <h2 class="vredict">[Not Sure]</h2>
-        <h3 id="subtitle">🗓️ Fetching Data Wait a sec</h3>
-        <h3 id="caller">📢 Called By: Checking</h3>
-        <h3>📎 Source: <a href="#" id="sourceLink">Here</a></h3>
-        <h4 id="reporter">Reported By: username</h4>
-    </div>
-    <div class="footer">
-        <p>
-            To report any blockade
-            <a href="https://github.com/The-Penguins-Club/bd-blockade/issues/2">Click here</a>
-        </p>
-        <p>
-            This is developed and maintained by
-            <a href="https://github.com/The-Penguins-Club/bd-blockade/">The Penguins Club</a>
-            and Reported by cool people from Bangladesh🇧🇩
-        </p>
-    </div>
+   
     <script src="script.js"></script>
 </body>
 
